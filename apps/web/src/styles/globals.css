@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@import "tailwindcss";
+
+
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* === Global Styles === */
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-gray-200 rounded-md shadow hover:bg-gray-300 transition;
+  }
+
+  .btn-selected {
+    @apply px-4 py-2 bg-green-700 text-white font-bold rounded-md shadow;
+  }
+
+  .bg-beige\/80 {
+    background-color: rgba(189, 186, 175, 0.8);
+  }
+
+  .font-rubik {
+    font-family: 'Rubik', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+/* === Shared Background Styles === */
+.whitebg {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(184, 184, 109, 0.9)),
+    url('/PencilNotes.png'),
+    url('/parchment-paper.jpeg');
+  background-size: contain;
+  background-position: center;
+  background-blend-mode: soft-light;
+  color: black;
+  font-family: 'Special Elite', cursive;
+  /* font-family: 'Special Elite';  */
+  font-size: 9pt;
+}
+
+.blackbg {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* === Container Classes === */
+.transparent-container {
+  background-size: contain;
+  background-position: center;
+  margin: 40px auto;
+  width: 50%;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.general-container {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(242, 242, 220, 0.98)), url('/parchment-paper.jpeg');
+  background-size: contain;
+  background-position: center;
+  color: #4A2C2A;
+  margin: 40px auto;
+  padding: 40px;
+  border: 1px solid #D2B48C;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  font-size: 1.5em;
+  line-height: 1.6;
+}
+
+/* === Buttons === */
+.general-button {
+  background-color: #3e8e41;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: 1px solid #D2B48C;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Special Elite', cursive; 
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.general-button:hover {
+  background-color: #4CAF50;
+}
+
+/* === Paragraph Spacing === */
+p {
+  margin-bottom: 20px;
+}
+
+/* Optional Utility Class */
+.transparent-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive-image {
+  position: relative;
+  width: 100%;
+  height: 600px; /* or more depending on desired scale */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.home-logo {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.reactive-container {
+ @apply text-base w-11/12 sm:w-4/5 md:w-3/4 lg:w-1/2 xl:w-1/2 mx-auto px-8 my-12 py-12 bg-yellow-50
+ border-2 border-[#a49480] rounded-2xl shadow-2xl shadow-black/100
+}

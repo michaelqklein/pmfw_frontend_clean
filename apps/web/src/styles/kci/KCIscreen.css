@@ -1,0 +1,74 @@
+.kci-message-display {
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    /* width: 350px; /* Example fixed width */
+    /* padding: 40px; */
+    margin-bottom: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8); /* Dark translucent background */
+    border: 2px solid #0f0; /* Green border for a sci-fi look */
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0f0; /* Glowing shadow */
+    overflow: hidden; /* Ensure stars don't overflow out of the box */
+    background-image: url('../../../public/images/stars01.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the background image */
+    /* background-repeat: no-repeat; /* Prevents repeating the background image */
+    /* z-index: -1; /* Puts the background behind all other content */
+  }
+  
+  .kci-message-display.small {
+    height: 300px; /* Example fixed height */
+  }
+  
+  .kci-message-display.big {
+    height: 300px; /* Example fixed height */
+  }
+  
+  .kci-mMsize {
+    z-index: 999;
+    position: absolute;
+    top: 25%;  /* Position the top at 50% of the parent container's height */
+    left: 50%; /* Position the left at 50% of the parent container's width */
+    transform: translate(-50%, -50%); /* Offset the element to center it */
+    font-family: 'Orbitron', sans-serif;
+    height: 100px; /* Set a fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    font-size: 2em; /* Adjust this value to change the font size */
+  }
+  
+  
+  .kci-mMsize.fade-in-out {
+    font-family: 'Orbitron', sans-serif;
+    animation: fadeInOut 3s forwards;
+  }
+  
+  .kci-mMsize.fade-in-out-slow {
+    font-family: 'Orbitron', sans-serif;
+    animation: fadeInOut 6s forwards;
+  }
+  
+  
+  @keyframes fadeInOut {
+    0%, 25% {
+      opacity: 1;
+    }
+    75%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  
+  @keyframes moveStar {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100px);
+    }
+  }
+  

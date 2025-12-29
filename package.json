@@ -1,0 +1,13 @@
+{
+  "name": "pmfw-frontend",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "dev": "yarn workspace web dev",
+    "lint": "yarn workspaces run lint"
+  }
+}

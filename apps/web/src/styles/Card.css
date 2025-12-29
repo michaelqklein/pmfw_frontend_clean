@@ -1,0 +1,60 @@
+.card {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(242, 242, 220, 0.98)), url('../../public/parchment-paper.jpeg');
+    background-size: contain;
+    background-position: center;
+    color: #4A2C2A;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px;
+    /* Width of the card */
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+    /* Prevents flex from resizing the cards */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px);
+  }
+  
+  .card.selected {
+    border: 2px solid rgb(108, 190, 49); /* fat green border when selected */
+  }
+  
+  .card-link,
+  .card-title-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    /* Maintain 16:9 aspect ratio */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-content {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(242, 242, 220, 0.98)), url('../../public/parchment-paper.jpeg');
+    background-size: contain;
+    background-position: center;
+    color: #4A2C2A;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: whitesmoke; */
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .card-text {
+    margin: 8px 0 0;
+    font-size: 1em;
+    color: #2f2626;
+  }

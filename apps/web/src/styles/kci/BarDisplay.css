@@ -1,0 +1,29 @@
+.bar-container {
+    border: 1px solid black;
+    width: 120px;
+    height: 20px;
+    position: relative;
+    background-color: black;
+  }
+  
+  .bar {
+    height: 100%;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+  }
+  

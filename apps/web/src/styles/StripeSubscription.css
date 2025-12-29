@@ -1,0 +1,144 @@
+/* Container for the entire payment form section */
+.stripe-subscription-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Form container */
+.payment-form {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Aligns text inside the form */
+}
+
+/* Label styles for the input fields */
+.payment-form label {
+    font-size: 16px;
+    color: #4b3026; /* Match label color with your theme */
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Input field for email */
+.payment-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus state for input field */
+.payment-form input[type="email"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Stripe CardElement (payment input) */
+.payment-form .StripeElement {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Focus state for Stripe input */
+.payment-form .StripeElement--focus {
+    border-color: #4CAF50;
+}
+
+/* Button styles */
+.payment-form button {
+    color: white;
+    background-color: #416742;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Button hover effect */
+.payment-form button:hover:not(:disabled) {
+    color: white;
+    background-color: #4CAF50;
+}
+
+/* Disabled state for the button */
+.payment-form button:disabled {
+    background-color: #999;
+}
+
+/* Error message styling */
+.payment-form .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Plan section to show selected plan details */
+.selected-plan {
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #4b3026;
+    margin-bottom: 20px;
+}
+
+/* Autofill button styles (optional) */
+.payment-form .autofill-button {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form .autofill-button:hover {
+    background-color: #bbb;
+}
+
+.processing-message {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #374151;
+    font-size: 0.875rem;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .7;
+    }
+}

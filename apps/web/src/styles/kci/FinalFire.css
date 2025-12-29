@@ -1,0 +1,25 @@
+.laser {
+    width: 15px;
+    height: 30px;
+    background-color: rgb(207, 113, 70);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: 5; 
+  }
+  
+  /* Specific color styles */
+  .black {
+    background: linear-gradient(180deg, #333, #555); /* Dark gradient for black torpedo */
+  }
+  
+  .green {
+    background: linear-gradient(180deg, #4caf50, #81c784); /* Green gradient */
+  }
+  
+  .red {
+    background: linear-gradient(180deg, #f44336, #e57373); /* Red gradient */
+  }
+  

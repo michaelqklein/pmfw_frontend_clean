@@ -1,0 +1,42 @@
+/* Style for the overlay behind the window */
+.overlay_tw {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* High z-index to ensure it's on top of other content */
+  }
+  
+  /* Style for the top window */
+  .top-window {
+    background-color: black;
+    color: green;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  button{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: black;
+    color: green;
+    border: 2px solid #0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    cursor: pointer; /* Display hand cursor on hover */
+  }
+  

@@ -1,0 +1,76 @@
+.keyboard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    user-select: none;
+    touch-action: none;
+    position: relative;
+    /* Ensure black keys are positioned relative to this container */
+    min-width: max-content;
+    /* Prevent the keyboard from being compressed smaller than its natural width */
+}
+
+.key {
+    position: relative;
+    border: 1px solid #000;
+    width: 40px;
+    height: 200px;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.key.white {
+    font: arial;
+    font-size: 2pt;
+    color: black;
+    background: white;
+    z-index: 1;
+}
+
+.key.black {
+    font: arial;
+    font-size: 1.5pt;
+    color: white;
+    background: black;
+    width: 30px;
+    height: 120px;
+    margin-left: -15px;
+    margin-right: -15px;
+    z-index: 2;
+    position: relative;
+    /* Position the black keys absolutely within the .keyboard container */
+    top: 0;
+    /* Start at the top of the keyboard container */
+}
+
+.key.pressed {
+    background: grey;
+}
+
+.key.white.pressed {
+    background: #ccc;
+}
+
+.key.black.pressed {
+    background: #555;
+}
+
+.key.white.green {
+    background: #61b35e;
+}
+
+.key.black.green {
+    background: #24612c;
+}
+
+
+.key.white.red {
+    background: #f5503d;
+}
+
+.key.black.red {
+    background: #6f0303;
+}

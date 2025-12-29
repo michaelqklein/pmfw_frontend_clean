@@ -1,0 +1,55 @@
+.tier {
+    background: none;
+    color: #4A2C2A;
+    border: 20px solid whitesmoke; /* Use solid transparent to maintain space for border */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 280px;
+    /* Width of the tier */
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+    /* Prevents flex from resizing the tiers */
+    box-sizing: content-box; /* Ensures the border is added to the overall size */
+  }
+  
+  .tier.selected {
+    border-color: rgb(108, 190, 49); /* Change the border color when selected */
+  }
+  
+  .tier-link,
+  .tier-title-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .tier-image {
+    width: 100%;
+    height: auto;
+    /* aspect-ratio: 16 / 9; */
+    /* Maintain 16:9 aspect ratio */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tier-content {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.99), rgba(242, 242, 220, 0.98)), url('../../public/parchment-paper.jpeg');
+    background-size: contain;
+    background-position: center;
+    color: #4A2C2A;
+    font-family: 'Noto Sans', sans-serif;
+    /* background-color: whitesmoke; */
+    padding: 16px;
+    box-sizing: content-box; /* Ensures the border is added to the overall size */
+  }
+  
+  .tier-title {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .tier-text {
+    margin: 8px 0 0;
+    font-size: 1em;
+    color: #2f2626;
+  }
+  

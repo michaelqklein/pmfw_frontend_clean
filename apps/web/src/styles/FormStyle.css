@@ -1,0 +1,59 @@
+
+.form-container {
+    background-image: linear-gradient(rgba(226, 226, 217, 0.8), rgba(184, 184, 109, 0.8)), url('../../public/parchment-paper.jpeg');  
+    background-size: contain;
+    margin: 40px auto;
+    padding: 20px;
+    border: 8px solid #70b274;  /* Solid border for the base */
+    border-radius: 10px;        /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), /* Small shadow for subtle depth */
+                0 6px 20px rgba(0, 0, 0, 0.19); /* Larger shadow for a more pronounced effect */
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-family: 'Special Elite', cursive;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    font-family: 'Special Elite', cursive;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #d5d0ac;
+    box-sizing: border-box;
+   /*  background: none; 
+    background-image: linear-gradient(rgba(230, 230, 200, 0.85), rgba(230, 230, 200, 0.85)), url('../../public/parchment-paper.jpeg');  
+    background-size: cover;
+    background-position: center; */
+    color: #000; /* Set text color to something visible against the background */
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.signup-link-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.signup-link {
+    color: #3e8e41;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+

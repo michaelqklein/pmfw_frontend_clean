@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+
+.cockpit-container
+{
+  flex-direction: column; /* Make items stack on top of each other */
+
+}
+
+.window-container
+{
+  background: rgba(29, 27, 27, 0);
+  padding-top: 2px;             /* 5px padding in all directions */
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* margin: 20px;             /* 20px margin around the window-container */
+  /* background-clip: content-box; Ensures the grey background doesn't bleed into the margin area */
+  /* box-sizing: border-box;   /* Ensures padding is included in the element's total width and height */
+}
+
+
+.control-container
+{
+  background: rgba(29, 27, 27, 0);
+  padding-top: 2px;             /* 5px padding in all directions */
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  box-sizing: border-box; /* Includes padding in the element's total width and height */
+  width: 100%; 
+  /* margin: 20px;             /* 20px margin around the window-container */
+  /* background-clip: content-box; Ensures the grey background doesn't bleed into the margin area */
+  /* box-sizing: border-box;   /* Ensures padding is included in the element's total width and height */
+}
+
+.menu-container {
+  font-family: 'Orbitron', sans-serif;
+  padding-left: 30px;
+  /* Adjust this value to control the left padding */
+  padding-right: 30px;
+  /* Adjust this value to control the right padding */
+  font-family: 'Orbitron', sans-serif;
+  /* Use a sci-fi themed font */
+  display: flex;
+  color: #fff;
+  /* White text for readability */
+}
+
+.name-container {
+  background: rgba(65, 65, 65, 0.8);
+  font-family: 'Orbitron', sans-serif;
+  /* Dark translucent background */
+  border: 2px solid #0f0;
+  /* Green border for a sci-fi look */
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0f0;
+  /* Glowing shadow */
+  margin-bottom: 10px;
+  text-align: center;
+  /* Center the text horizontally */
+  padding: 5px;
+  /* Add padding for better appearance */
+}
+
+.name-container h1 {
+  font-family: 'Orbitron', sans-serif;
+  /* font-family: 'Arial', sans-serif; */
+  font-size: 28px;
+  color: #c0c0c0;
+  /* Base color for metallic look */
+  background: linear-gradient(90deg, #a0ed05, #3f7b0a, #43f204);
+  /* background: linear-gradient(90deg, #e6e6e6, #aaa, #e6e6e6);
+   */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px #000, 1px 1px 5px #777;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.table-container:first-child {
+ /*  flex: 4; */
+  /* Adjust the flex value to allocate more space to the first table */
+}
+
+.table-container:nth-child(2) {
+  /* flex: 4.2; */
+  /* Adjust the flex value for the second table */
+}
+
+.table-container:last-child {
+ /*  flex: 2; */
+  /* Adjust the flex value for the second table */
+}
+
+.table-container {
+  font-family: 'Orbitron', sans-serif;
+  /* background: rgba(65, 65, 65, 0.7); */
+  margin-right: 5px;
+  /* Add a small margin between tables */
+  display: block;
+  justify-content: center;
+  align-items: flex-start;
+  /* height: 100vh; */
+  /* margin-top: 10vh; */
+  /* width: 100%; */
+}
+
+.k-table {
+  display: table;
+  background: rgba(65, 65, 65, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
+  /* Dark translucent background */
+  border: 2px solid #0f0;
+  /* Green border for a sci-fi look */
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0f0;
+  /* Glowing shadow */
+  /* width: 50%;  */
+  flex-grow: 1; /* This will take up the remaining space */
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  /* Center the buttons horizontally */
+  align-items: center;
+  /* Center the buttons vertically */
+  flex-wrap: wrap;
+  /* Ensure buttons wrap to the next line if they overflow */
+  gap: 10px;
+  /* Space between buttons, adjust as needed */
+
+}
+
+.fixed-width-button {
+  width: 50px;
+  /* Set a fixed width for specific buttons */
+}
+
+.table-cell .k-button {
+  font-family: 'Orbitron', sans-serif;
+  /* Use a sci-fi themed font */
+  margin-right: 10px;
+  /* Increase margin between buttons */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.table-cell .k-button,
+.table-cell .SelectorButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(145deg, #333, #111);
+  border: 1px solid #0f0;
+  border-radius: 5px;
+  color: #0f0;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.table-cell .k-button.selected,
+.table-cell .SelectorButton.selected {
+  background: #0f0;
+  /* Highlight selected button */
+  color: #222;
+  /* Dark text for contrast */
+}
+
+.table-cell .k-button:hover,
+.table-cell .SelectorButton:hover {
+  background: rgb(119, 160, 119);
+  /* Highlight on hover */
+  color: #222;
+  transform: scale(1.1);
+  /* Slightly enlarge on hover */
+}
+
+.table-cell .k-button:focus,
+.table-cell .SelectorButton:focus {
+  outline: none;
+}
+
+.table-cell .SelectorButton {
+  margin-right: 10px;
+}
+
+.score h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4em;
+  /* or another value based on your design */
+  font-weight: bold;
+}
+
+.heart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fa-heart {
+  color: red; /* You can change the heart color as per your design */
+  font-size: 16px; /* Adjust the size as needed */
+}

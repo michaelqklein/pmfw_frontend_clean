@@ -1,0 +1,48 @@
+
+  .mMsize {
+    z-index: 999;
+    position: absolute;
+    top: 50%;  /* Position the top at 50% of the parent container's height */
+    left: 50%; /* Position the left at 50% of the parent container's width */
+    transform: translate(-50%, -50%); /* Offset the element to center it */
+    font-family: 'Roboto', sans-serif;
+    height: 100px; /* Set a fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    font-size: 2em; /* Adjust this value to change the font size */
+  }
+  
+  
+  .mMsize.fade-in-out {
+    font-family: 'Roboto', sans-serif;
+    animation: fadeInOut 3s forwards;
+  }
+  
+  .mMsize.fade-in-out-slow {
+    font-family: 'Roboto', sans-serif;
+    animation: fadeInOut 6s forwards;
+  }
+  
+  
+  @keyframes fadeInOut {
+    0%, 25% {
+      opacity: 1;
+    }
+    75%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  
+  @keyframes moveStar {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100px);
+    }
+  }
+  
