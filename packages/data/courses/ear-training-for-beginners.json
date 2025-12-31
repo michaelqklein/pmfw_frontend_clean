@@ -1,0 +1,50 @@
+{
+    "id": "ear-training-for-beginners",
+    "title": "Ear Training for Beginners",
+    "description": "Learn the fundamentals of ear training.",
+    "lessons": [
+      {
+        "title": "Halftones and Wholetones",
+        "videoUrl": "/videos/ear/lesson1.mp4",
+        "notes": "Before we can talk about intervals, you need to understand what an half tones and whole tones are.",
+        "pdfUrl": "/pdfs/ear/lesson1.pdf"
+      },
+      {
+        "title": "What are Intervals?",
+        "videoUrl": "/videos/ear/lesson2.mp4",
+        "notes": "Now we can talk about intervals.",
+        "pdfUrl": "/pdfs/ear/lesson2.pdf"
+      },
+      {
+        "title": "Which Intervals are there?",
+        "videoUrl": "/videos/ear/lesson3.mp4",
+        "notes": "There are 12 intervals in an octave.",
+        "pdfUrl": "/pdfs/ear/lesson3.pdf"
+      },
+      {
+        "title": "Ascending Intervals",
+        "videoUrl": "/videos/ear/lesson3.mp4",
+        "notes": "We start with ascending intervals.",
+        "pdfUrl": "/pdfs/ear/lesson3.pdf"
+      },
+      {
+        "title": "Descending Intervals",
+        "videoUrl": "/videos/ear/lesson4.mp4",
+        "notes": "Then we do descending intervals.",
+        "pdfUrl": "/pdfs/ear/lesson4.pdf"
+      },
+      {
+        "title": "Harmonic Intervals",
+        "videoUrl": "/videos/ear/lesson5.mp4",
+        "notes": "Now we do harmonic intervals.",
+        "pdfUrl": "/pdfs/ear/lesson5.pdf"
+      },
+      {
+        "title": "More About Augmented and Diminished Intervals",
+        "videoUrl": "/videos/ear/lesson6.mp4",
+        "notes": "Learn how to play the major scale on guitar.",
+        "pdfUrl": "/pdfs/ear/lesson6.pdf"
+      }
+    ]
+  }
+  

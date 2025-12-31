@@ -1,0 +1,14 @@
+{
+    "id": "piano-improvisation-for-beginners",
+    "title": "Piano Improvisation for Beginners",
+    "description": "Learn the fundamentals of piano improvisation.",
+    "lessons": [
+      {
+        "title": "Introduction",
+        "videoUrl": "/videos/FreeImprov_Tutorial.mp4",
+        "notes": "In this lesson, we start with the basics.",
+        "pdfUrl": "/pdfs/PianoImprovisationForBeginnersIntro.pdf"
+      }
+    ]
+  }
+  

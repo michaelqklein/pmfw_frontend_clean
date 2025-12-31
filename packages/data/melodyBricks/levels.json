@@ -1,0 +1,1737 @@
+{
+  "levels": [
+    {
+      "id": "aP4aP5",
+      "name": "Level 1",
+      "section": "1",
+      "description": "Introduction to ascending intervals: Perfect 4th and Perfect 5th",
+      "introText": "Welcome to Melody Bricks! In this level, you'll learn to distinguish between ascending Perfect 4ths and Perfect 5ths. You will hear 2 notes. The first one is the root note C4 (or middle C). It is fixed in this level. It is the second note that you need to listen to and play on the keyboard to succeed.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aM2aP5aP8",
+      "requires": [],
+      "mapGrid": {
+        "x": 1,
+        "y": 1
+      },
+      "difficulty": "beginner",
+      "intervals": [
+        "P4",
+        "P5"
+      ],
+      "winCondition": {
+        "eliminatedRows": 3
+      },
+      "active": true,
+      "unit": "Introduction",
+      "jump": true
+    },
+    {
+      "id": "aM2aP5aP8",
+      "name": "Level 2",
+      "section": "1",
+      "description": "Learn ascending intervals: Major 2nd, Perfect 5th, and Perfect Octave",
+      "introText": "Time to expand your interval recognition! In this level, you'll learn to distinguish between ascending Major 2nds, Perfect 5ths, and Perfect Octaves. These are some of the most recognizable intervals in music.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aP4aM7aP8",
+      "requires": [],
+      "mapGrid": {
+        "x": 1,
+        "y": 3
+      },
+      "difficulty": "beginner",
+      "intervals": [
+        "M2",
+        "P5",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": true
+    },
+    {
+      "id": "aP4aM7aP8",
+      "name": "Level 3",
+      "section": "1",
+      "description": "Learn ascending intervals: Perfect 4th, Major 7th, and Perfect Octave",
+      "introText": "Get ready for a challenge! You'll now learn to identify ascending Perfect 4ths, Major 7ths, and Perfect Octaves. The Major 7th has a distinctive, almost dissonant sound that resolves beautifully.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aM2aP4aP5aM7aP8",
+      "requires": [
+        "aM2aP5aP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 4
+      },
+      "difficulty": "beginner",
+      "intervals": [
+        "P4",
+        "M7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": false
+    },
+    {
+      "id": "aM2aP4aP5aM7aP8",
+      "name": "Level 4",
+      "section": "1",
+      "description": "Master ascending intervals: Major 2nd, Major 3rd, Perfect 5th, Major 7th, and Perfect Octave",
+      "introText": "You're building towards a complete scale! This level combines Major 2nds, Perfect 4ths, Perfect 5ths, Major 7ths, and Perfect Octaves. Listen for the unique character of each interval.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aM3aP5aM6",
+      "requires": [
+        "aP4aM7aP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 5
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "M2",
+        "P4",
+        "P5",
+        "M7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": false
+    },
+    {
+      "id": "aM3aP5aM6",
+      "name": "Level 5",
+      "section": "1",
+      "description": "Learn ascending intervals: Major 3rd, Perfect 5th, and Major 6th",
+      "introText": "Time for some warm, consonant intervals! You'll learn to distinguish between ascending Major 3rds, Perfect 5ths, and Major 6ths. These intervals form the foundation of many beautiful harmonies.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aM2aM3aP4aP5aM6aM7aP8",
+      "requires": [
+        "aM2aP4aP5aM7aP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 6
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "M3",
+        "P5",
+        "M6"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": false
+    },
+    {
+      "id": "aM2aM3aP4aP5aM6aM7aP8",
+      "name": "Level 6",
+      "section": "1",
+      "description": "Master all ascending chromatic intervals from unison to octave",
+      "introText": "Congratulations! You're now ready to master the complete ascending Major Scale. This level includes Major 2nds, Major 3rds, Perfect 4ths, Perfect 5ths, Major 6ths, Major 7ths, and Perfect Octaves.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aM2am3aP4",
+      "requires": [
+        "aM3aP5aM6"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 7
+      },
+      "difficulty": "advanced",
+      "intervals": [
+        "M2",
+        "M3",
+        "P4",
+        "P5",
+        "M6",
+        "M7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 7
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": false
+    },
+    {
+      "id": "aM2am3aP4",
+      "name": "Level 7",
+      "section": "1",
+      "description": "Learn ascending intervals: Major 2nd, minor 3rd, and Perfect 4th",
+      "introText": "Now let's explore the darker side of intervals! You'll learn to distinguish between ascending Major 2nds, minor 3rds, and Perfect 4ths. Notice how the minor 3rd has a more melancholy character.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aP5am6am7",
+      "requires": [],
+      "mapGrid": {
+        "x": 1,
+        "y": 9
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "M2",
+        "m3",
+        "P4"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Minor Scale",
+      "jump": true
+    },
+    {
+      "id": "aP5am6am7",
+      "name": "Level 8",
+      "section": "1",
+      "description": "Learn ascending intervals: Perfect 5th, minor 6th, and minor 7th",
+      "introText": "Continue exploring minor intervals! In this level, you'll master ascending Perfect 5ths, minor 6ths, and minor 7ths. These intervals add depth and emotion to musical compositions.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aP4aP5am6am7aP8",
+      "requires": [
+        "aM2am3aP4"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 10
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "P5",
+        "m6",
+        "m7"
+      ],
+      "winCondition": {
+        "eliminatedRows": 7
+      },
+      "active": true,
+      "unit": "Minor Scale",
+      "jump": false
+    },
+    {
+      "id": "aP4aP5am6am7aP8",
+      "name": "Level 9",
+      "section": "1",
+      "description": "Learn ascending intervals: Perfect 4th, Perfect 5th, minor 6th, minor 7th, and Perfect Octave",
+      "introText": "Let's combine perfect and minor intervals! You'll master ascending Perfect 4ths, Perfect 5ths, minor 6ths, minor 7ths, and Perfect Octaves. Listen for the contrast between perfect and minor qualities.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aM2am3aP4aP5am6am7aP8",
+      "requires": [
+        "aP5am6am7"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 11
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "P4",
+        "P5",
+        "m6",
+        "m7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 7
+      },
+      "active": true,
+      "unit": "Minor Scale",
+      "jump": false
+    },
+    {
+      "id": "aM2am3aP4aP5am6am7aP8",
+      "name": "Level 10",
+      "section": "1",
+      "description": "Master all ascending intervals: Major 2nd, minor 3rd, Perfect 4th, Perfect 5th, minor 6th, minor 7th, and Perfect Octave",
+      "introText": "Welcome to the Natural Minor Scale! You'll now master the complete ascending minor scale: Major 2nds, minor 3rds, Perfect 4ths, Perfect 5ths, minor 6ths, minor 7ths, and Perfect Octaves.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "am2am3aP4",
+      "requires": [
+        "aP4aP5am6am7aP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 12
+      },
+      "difficulty": "advanced",
+      "intervals": [
+        "M2",
+        "m3",
+        "P4",
+        "P5",
+        "m6",
+        "m7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 7
+      },
+      "active": true,
+      "unit": "Minor Scale",
+      "jump": false
+    },
+    {
+      "id": "am2am3aP4",
+      "name": "Level 11",
+      "section": "1",
+      "description": "Learn ascending intervals: minor 2nd, minor 3rd, and Perfect 4th",
+      "introText": "Time for some chromatic challenge! You'll learn to distinguish between ascending minor 2nds, minor 3rds, and Perfect 4ths. The minor 2nd is particularly distinctive with its tight, dissonant sound.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "aTTam6am7",
+      "requires": [],
+      "mapGrid": {
+        "x": 1,
+        "y": 14
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "m2",
+        "m3",
+        "P4"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Phrygian and Locrian",
+      "jump": true
+    },
+    {
+      "id": "aTTam6am7",
+      "name": "Level 12",
+      "section": "1",
+      "description": "Learn ascending intervals: Tritone, minor 6th, and minor 7th",
+      "introText": "Meet the infamous Tritone! You'll learn to identify ascending Tritones, minor 6ths, and minor 7ths. The Tritone was once called 'diabolus in musica' for its uniquely unstable sound.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "am2am3aP4aP5am6am7aP8",
+      "requires": [
+        "am2am3aP4"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 15
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "TT",
+        "m6",
+        "m7"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Phrygian and Locrian",
+      "jump": false
+    },
+    {
+      "id": "am2am3aP4aP5am6am7aP8",
+      "name": "Level 13",
+      "section": "1",
+      "description": "Master ascending intervals: minor 2nd, minor 3rd, Perfect 4th, Perfect 4th, minor 6th, minor 7th, and Perfect Octave",
+      "introText": "Explore the exotic Phrygian mode! This level features ascending minor 2nds, minor 3rds, Perfect 4ths, Perfect 5ths, minor 6ths, minor 7ths, and Perfect Octaves. This mode has a distinctive Spanish flavor.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "am2am3aP4aTTam6am7aP8v2",
+      "requires": [
+        "aTTam6am7"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 16
+      },
+      "difficulty": "advanced",
+      "intervals": [
+        "m2",
+        "m3",
+        "P4",
+        "P5",
+        "m6",
+        "m7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 7
+      },
+      "active": true,
+      "unit": "Phrygian and Locrian",
+      "jump": false
+    },
+    {
+      "id": "am2am3aP4aTTam6am7aP8v2",
+      "name": "Level 14",
+      "section": "1",
+      "description": "Master all ascending intervals: minor 2nd, minor 3rd, Perfect 4th, Tritone, minor 6th, minor 7th, and Perfect Octave",
+      "introText": "The ultimate challenge! You'll master the complete Locrian mode with ascending minor 2nds, minor 3rds, Perfect 4ths, Tritones, minor 6ths, minor 7ths, and Perfect Octaves. This is the most unstable of all modes.",
+      "type": "12 tone wall",
+      "freeVsPaid": "free",
+      "settings": {
+        "ascending": true,
+        "descending": false,
+        "harmonic": false,
+        "ascendingVector": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": null,
+      "requires": [
+        "am2am3aP4aP5am6am7aP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 17
+      },
+      "difficulty": "advanced",
+      "intervals": [
+        "m2",
+        "m3",
+        "P4",
+        "TT",
+        "m6",
+        "m7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 7
+      },
+      "active": true,
+      "unit": "Phrygian and Locrian",
+      "jump": false
+    },
+    {
+      "id": "dm2dP5dP8",
+      "name": "Level 15",
+      "section": "2",
+      "description": "Learn descending intervals: minor 2nd, Perfect 5th, and Perfect Octave",
+      "introText": "Time to flip your perspective! You'll now learn to identify descending intervals: minor 2nds, Perfect 5ths, and Perfect Octaves. Descending intervals have a completely different character from ascending ones.",
+      "type": "12 tone wall",
+      "freeVsPaid": "paid",
+      "settings": {
+        "ascending": false,
+        "descending": true,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "dm2dm3dP4",
+      "requires": [],
+      "mapGrid": {
+        "x": 1,
+        "y": 1
+      },
+      "difficulty": "beginner",
+      "intervals": [
+        "m2",
+        "P5",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": true
+    },
+    {
+      "id": "dm2dm3dP4",
+      "name": "Level 16",
+      "section": "2",
+      "description": "Learn descending intervals: minor 2nd, minor 3rd, and Perfect 4th",
+      "introText": "Let's expand your descending interval skills! You'll learn to distinguish between descending minor 2nds, minor 3rds, and Perfect 4ths. Notice how these intervals feel different when going down.",
+      "type": "12 tone wall",
+      "freeVsPaid": "paid",
+      "settings": {
+        "ascending": false,
+        "descending": true,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "dm2dm3dP4dP5dP8",
+      "requires": [
+        "dm2dP5dP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 2
+      },
+      "difficulty": "beginner",
+      "intervals": [
+        "m2",
+        "m3",
+        "P4"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": false
+    },
+    {
+      "id": "dm2dm3dP4dP5dP8",
+      "name": "Level 17",
+      "section": "2",
+      "description": "Master descending intervals: minor 2nd, minor 3rd, Perfect 4th, Perfect 5th, and Perfect Octave",
+      "introText": "Ready for more complex descending patterns! You'll master descending minor 2nds, minor 3rds, Perfect 4ths, Perfect 5ths, and Perfect Octaves. This builds your complete descending interval foundation.",
+      "type": "12 tone wall",
+      "freeVsPaid": "paid",
+      "settings": {
+        "ascending": false,
+        "descending": true,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "dm6dm7dP8",
+      "requires": [
+        "dm2dm3dP4"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 3
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "m2",
+        "m3",
+        "P4",
+        "P5",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": false
+    },
+    {
+      "id": "dm6dm7dP8",
+      "name": "Level 18",
+      "section": "2",
+      "description": "Learn descending intervals: minor 6th, minor 7th, and Perfect Octave",
+      "introText": "Let's explore the higher descending intervals! You'll learn to identify descending minor 6ths, minor 7ths, and Perfect Octaves. These larger intervals have a sweeping, dramatic quality when descending.",
+      "type": "12 tone wall",
+      "freeVsPaid": "paid",
+      "settings": {
+        "ascending": false,
+        "descending": true,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "dm2dm3dP4dP5dm6dm7",
+      "requires": [
+        "dm2dm3dP4dP5dP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 4
+      },
+      "difficulty": "intermediate",
+      "intervals": [
+        "m6",
+        "m7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": false
+    },
+    {
+      "id": "dm2dm3dP4dP5dm6dm7",
+      "name": "Level 19",
+      "section": "2",
+      "description": "Master descending major scale intervals: m2, m3, P4, P5, m6, m7, P8",
+      "introText": "Experience the descending Major Scale! You'll master descending minor 2nds, minor 3rds, Perfect 4ths, Perfect 5ths, minor 6ths, minor 7ths, and Perfect Octaves. This level uses randomized root notes for extra challenge!",
+      "type": "12 tone wall",
+      "freeVsPaid": "paid",
+      "settings": {
+        "ascending": false,
+        "descending": true,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "dM2dM3dP4",
+      "requires": [
+        "dm6dm7dP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 5
+      },
+      "difficulty": "advanced",
+      "intervals": [
+        "m2",
+        "m3",
+        "P4",
+        "P5",
+        "m6",
+        "m7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 7
+      },
+      "active": true,
+      "unit": "Major Scale",
+      "jump": false
+    },
+    {
+      "id": "dM2dM3dP4",
+      "name": "Level 20",
+      "section": "2",
+      "description": "Learn descending intervals: Major 2nd, Major 3rd, and Perfect 4th",
+      "introText": "Now for descending major intervals! You'll learn to distinguish between descending Major 2nds, Major 3rds, and Perfect 4ths. These have a brighter quality even when descending.",
+      "type": "12 tone wall",
+      "freeVsPaid": "paid",
+      "settings": {
+        "ascending": false,
+        "descending": true,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "dM2dM3dP4dP5dM6dm7dP8",
+      "requires": [],
+      "mapGrid": {
+        "x": 1,
+        "y": 7
+      },
+      "difficulty": "advanced",
+      "intervals": [
+        "M2",
+        "M3",
+        "P4"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Natural Minor",
+      "jump": true
+    },
+    {
+      "id": "dP5dM6dm7dP8",
+      "name": "Level 21",
+      "section": "2",
+      "description": "Learn descending intervals: Perfect 5th, Major 6th, minor 7th, and Perfect Octave",
+      "introText": "Complete your descending major interval training! You'll master descending Perfect 5ths, Major 6ths, minor 7ths, and Perfect Octaves. These larger intervals have tremendous expressive power.",
+      "type": "12 tone wall",
+      "freeVsPaid": "paid",
+      "settings": {
+        "ascending": false,
+        "descending": true,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": "dM2dM3dP4dP5dM6dm7dP8",
+      "requires": [
+        "dM2dM3dP4"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 8
+      },
+      "difficulty": "advanced",
+      "intervals": [
+        "P5",
+        "M6",
+        "m7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 5
+      },
+      "active": true,
+      "unit": "Natural Minor",
+      "jump": false
+    },
+    {
+      "id": "dM2dM3dP4dP5dM6dm7dP8",
+      "name": "Level 22",
+      "section": "2",
+      "description": "Master all descending intervals: Major 2nd, Major 3rd, Perfect 4th, Perfect 5th, Major 6th, minor 7th, and Perfect Octave",
+      "introText": "The ultimate descending challenge! You'll master the complete descending major scale: Major 2nds, Major 3rds, Perfect 4ths, Perfect 5ths, Major 6ths, minor 7ths, and Perfect Octaves. You're now a true interval master!",
+      "type": "12 tone wall",
+      "freeVsPaid": "paid",
+      "settings": {
+        "ascending": false,
+        "descending": true,
+        "harmonic": false,
+        "ascendingVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "descendingVector": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "harmonicVector": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "randomIntervalRoot": false
+      },
+      "nextLevel": null,
+      "requires": [
+        "dP5dM6dm7dP8"
+      ],
+      "mapGrid": {
+        "x": 1,
+        "y": 9
+      },
+      "difficulty": "expert",
+      "intervals": [
+        "M2",
+        "M3",
+        "P4",
+        "P5",
+        "M6",
+        "m7",
+        "P8"
+      ],
+      "winCondition": {
+        "eliminatedRows": 7
+      },
+      "active": true,
+      "unit": "Natural Minor",
+      "jump": false
+    }
+  ],
+  "intervalMapping": {
+    "0": "m2",
+    "1": "M2",
+    "2": "m3",
+    "3": "M3",
+    "4": "P4",
+    "5": "TT",
+    "6": "P5",
+    "7": "m6",
+    "8": "M6",
+    "9": "m7",
+    "10": "M7",
+    "11": "P8"
+  },
+  "metadata": {
+    "version": "1.0",
+    "description": "Level progression for interval training in melody bricks game",
+    "totalLevels": 22,
+    "progressionType": "square",
+    "note": "There is another level type called 'minimal columns' that uses a different keyboard layout"
+  }
+}

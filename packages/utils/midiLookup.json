@@ -1,0 +1,533 @@
+{
+    "midiLookup": {
+      "21": {
+        "fileName": "021_A0.wav",
+        "denotation": "A0",
+        "note": "A",
+        "type": "white"
+      },
+      "22": {
+        "fileName": "022_Bb0.wav",
+        "denotation": "Bb0",
+        "note": "Bb",
+        "type": "black"
+      },
+      "23": {
+        "fileName": "023_B0.wav",
+        "denotation": "B0",
+        "note": "B",
+        "type": "white"
+      },
+      "24": {
+        "fileName": "024_C1.wav",
+        "denotation": "C1",
+        "note": "C",
+        "type": "white"
+      },
+      "25": {
+        "fileName": "025_Db1.wav",
+        "denotation": "Db1",
+        "note": "Db",
+        "type": "black"
+      },
+      "26": {
+        "fileName": "026_D1.wav",
+        "denotation": "D1",
+        "note": "D",
+        "type": "white"
+      },
+      "27": {
+        "fileName": "027_Eb1.wav",
+        "denotation": "Eb1",
+        "note": "Eb",
+        "type": "black"
+      },
+      "28": {
+        "fileName": "028_E1.wav",
+        "denotation": "E1",
+        "note": "E",
+        "type": "white"
+      },
+      "29": {
+        "fileName": "029_F1.wav",
+        "denotation": "F1",
+        "note": "F",
+        "type": "white"
+      },
+      "30": {
+        "fileName": "030_Gb1.wav",
+        "denotation": "Gb1",
+        "note": "Gb",
+        "type": "black"
+      },
+      "31": {
+        "fileName": "031_G1.wav",
+        "denotation": "G1",
+        "note": "G",
+        "type": "white"
+      },
+      "32": {
+        "fileName": "032_Ab1.wav",
+        "denotation": "Ab1",
+        "note": "Ab",
+        "type": "black"
+      },
+      "33": {
+        "fileName": "033_A1.wav",
+        "denotation": "A1",
+        "note": "A",
+        "type": "white"
+      },
+      "34": {
+        "fileName": "034_Bb1.wav",
+        "denotation": "Bb1",
+        "note": "Bb",
+        "type": "black"
+      },
+      "35": {
+        "fileName": "035_B1.wav",
+        "denotation": "B1",
+        "note": "B",
+        "type": "white"
+      },
+      "36": {
+        "fileName": "036_C2.wav",
+        "denotation": "C2",
+        "note": "C",
+        "type": "white"
+      },
+      "37": {
+        "fileName": "037_Db2.wav",
+        "denotation": "Db2",
+        "note": "Db",
+        "type": "black"
+      },
+      "38": {
+        "fileName": "038_D2.wav",
+        "denotation": "D2",
+        "note": "D",
+        "type": "white"
+      },
+      "39": {
+        "fileName": "039_Eb2.wav",
+        "denotation": "Eb2",
+        "note": "Eb",
+        "type": "black"
+      },
+      "40": {
+        "fileName": "040_E2.wav",
+        "denotation": "E2",
+        "note": "E",
+        "type": "white"
+      },
+      "41": {
+        "fileName": "041_F2.wav",
+        "denotation": "F2",
+        "note": "F",
+        "type": "white"
+      },
+      "42": {
+        "fileName": "042_Gb2.wav",
+        "denotation": "Gb2",
+        "note": "Gb",
+        "type": "black"
+      },
+      "43": {
+        "fileName": "043_G2.wav",
+        "denotation": "G2",
+        "note": "G",
+        "type": "white"
+      },
+      "44": {
+        "fileName": "044_Ab2.wav",
+        "denotation": "Ab2",
+        "note": "Ab",
+        "type": "black"
+      },
+      "45": {
+        "fileName": "045_A2.wav",
+        "denotation": "A2",
+        "note": "A",
+        "type": "white"
+      },
+      "46": {
+        "fileName": "046_Bb2.wav",
+        "denotation": "Bb2",
+        "note": "Bb",
+        "type": "black"
+      },
+      "47": {
+        "fileName": "047_B2.wav",
+        "denotation": "B2",
+        "note": "B",
+        "type": "white"
+      },
+      "48": {
+        "fileName": "048_C3.wav",
+        "denotation": "C3",
+        "note": "C",
+        "type": "white"
+      },
+      "49": {
+        "fileName": "049_Db3.wav",
+        "denotation": "Db3",
+        "note": "Db",
+        "type": "black"
+      },
+      "50": {
+        "fileName": "050_D3.wav",
+        "denotation": "D3",
+        "note": "D",
+        "type": "white"
+      },
+      "51": {
+        "fileName": "051_Eb3.wav",
+        "denotation": "Eb3",
+        "note": "Eb",
+        "type": "black"
+      },
+      "52": {
+        "fileName": "052_E3.wav",
+        "denotation": "E3",
+        "note": "E",
+        "type": "white"
+      },
+      "53": {
+        "fileName": "053_F3.wav",
+        "denotation": "F3",
+        "note": "F",
+        "type": "white"
+      },
+      "54": {
+        "fileName": "054_Gb3.wav",
+        "denotation": "Gb3",
+        "note": "Gb",
+        "type": "black"
+      },
+      "55": {
+        "fileName": "055_G3.wav",
+        "denotation": "G3",
+        "note": "G",
+        "type": "white"
+      },
+      "56": {
+        "fileName": "056_Ab3.wav",
+        "denotation": "Ab3",
+        "note": "Ab",
+        "type": "black"
+      },
+      "57": {
+        "fileName": "057_A3.wav",
+        "denotation": "A3",
+        "note": "A",
+        "type": "white"
+      },
+      "58": {
+        "fileName": "058_Bb3.wav",
+        "denotation": "Bb3",
+        "note": "Bb",
+        "type": "black"
+      },
+      "59": {
+        "fileName": "059_B3.wav",
+        "denotation": "B3",
+        "note": "B",
+        "type": "white"
+      },
+      "60": {
+        "fileName": "060_C4.wav",
+        "denotation": "C4",
+        "note": "C",
+        "type": "white"
+      },
+      "61": {
+        "fileName": "061_Db4.wav",
+        "denotation": "Db4",
+        "note": "Db",
+        "type": "black"
+      },
+      "62": {
+        "fileName": "062_D4.wav",
+        "denotation": "D4",
+        "note": "D",
+        "type": "white"
+      },
+      "63": {
+        "fileName": "063_Eb4.wav",
+        "denotation": "Eb4",
+        "note": "Eb",
+        "type": "black"
+      },
+      "64": {
+        "fileName": "064_E4.wav",
+        "denotation": "E4",
+        "note": "E",
+        "type": "white"
+      },
+      "65": {
+        "fileName": "065_F4.wav",
+        "denotation": "F4",
+        "note": "F",
+        "type": "white"
+      },
+      "66": {
+        "fileName": "066_Gb4.wav",
+        "denotation": "Gb4",
+        "note": "Gb",
+        "type": "black"
+      },
+      "67": {
+        "fileName": "067_G4.wav",
+        "denotation": "G4",
+        "note": "G",
+        "type": "white"
+      },
+      "68": {
+        "fileName": "068_Ab4.wav",
+        "denotation": "Ab4",
+        "note": "Ab",
+        "type": "black"
+      },
+      "69": {
+        "fileName": "069_A4.wav",
+        "denotation": "A4",
+        "note": "A",
+        "type": "white"
+      },
+      "70": {
+        "fileName": "070_Bb4.wav",
+        "denotation": "Bb4",
+        "note": "Bb",
+        "type": "black"
+      },
+      "71": {
+        "fileName": "071_B4.wav",
+        "denotation": "B4",
+        "note": "B",
+        "type": "white"
+      },
+      "72": {
+        "fileName": "072_C5.wav",
+        "denotation": "C5",
+        "note": "C",
+        "type": "white"
+      },
+      "73": {
+        "fileName": "073_Db5.wav",
+        "denotation": "Db5",
+        "note": "Db",
+        "type": "black"
+      },
+      "74": {
+        "fileName": "074_D5.wav",
+        "denotation": "D5",
+        "note": "D",
+        "type": "white"
+      },
+      "75": {
+        "fileName": "075_Eb5.wav",
+        "denotation": "Eb5",
+        "note": "Eb",
+        "type": "black"
+      },
+      "76": {
+        "fileName": "076_E5.wav",
+        "denotation": "E5",
+        "note": "E",
+        "type": "white"
+      },
+      "77": {
+        "fileName": "077_F5.wav",
+        "denotation": "F5",
+        "note": "F",
+        "type": "white"
+      },
+      "78": {
+        "fileName": "078_Gb5.wav",
+        "denotation": "Gb5",
+        "note": "Gb",
+        "type": "black"
+      },
+      "79": {
+        "fileName": "079_G5.wav",
+        "denotation": "G5",
+        "note": "G",
+        "type": "white"
+      },
+      "80": {
+        "fileName": "080_Ab5.wav",
+        "denotation": "Ab5",
+        "note": "Ab",
+        "type": "black"
+      },
+      "81": {
+        "fileName": "081_A5.wav",
+        "denotation": "A5",
+        "note": "A",
+        "type": "white"
+      },
+      "82": {
+        "fileName": "082_Bb5.wav",
+        "denotation": "Bb5",
+        "note": "Bb",
+        "type": "black"
+      },
+      "83": {
+        "fileName": "083_B5.wav",
+        "denotation": "B5",
+        "note": "B",
+        "type": "white"
+      },
+      "84": {
+        "fileName": "084_C6.wav",
+        "denotation": "C6",
+        "note": "C",
+        "type": "white"
+      },
+      "85": {
+        "fileName": "085_Db6.wav",
+        "denotation": "Db6",
+        "note": "Db",
+        "type": "black"
+      },
+      "86": {
+        "fileName": "086_D6.wav",
+        "denotation": "D6",
+        "note": "D",
+        "type": "white"
+      },
+      "87": {
+        "fileName": "087_Eb6.wav",
+        "denotation": "Eb6",
+        "note": "Eb",
+        "type": "black"
+      },
+      "88": {
+        "fileName": "088_E6.wav",
+        "denotation": "E6",
+        "note": "E",
+        "type": "white"
+      },
+      "89": {
+        "fileName": "089_F6.wav",
+        "denotation": "F6",
+        "note": "F",
+        "type": "white"
+      },
+      "90": {
+        "fileName": "090_Gb6.wav",
+        "denotation": "Gb6",
+        "note": "Gb",
+        "type": "black"
+      },
+      "91": {
+        "fileName": "091_G6.wav",
+        "denotation": "G6",
+        "note": "G",
+        "type": "white"
+      },
+      "92": {
+        "fileName": "092_Ab6.wav",
+        "denotation": "Ab6",
+        "note": "Ab",
+        "type": "black"
+      },
+      "93": {
+        "fileName": "093_A6.wav",
+        "denotation": "A6",
+        "note": "A",
+        "type": "white"
+      },
+      "94": {
+        "fileName": "094_Bb6.wav",
+        "denotation": "Bb6",
+        "note": "Bb",
+        "type": "black"
+      },
+      "95": {
+        "fileName": "095_B6.wav",
+        "denotation": "B6",
+        "note": "B",
+        "type": "white"
+      },
+      "96": {
+        "fileName": "096_C7.wav",
+        "denotation": "C7",
+        "note": "C",
+        "type": "white"
+      },
+      "97": {
+        "fileName": "097_Db7.wav",
+        "denotation": "Db7",
+        "note": "Db",
+        "type": "black"
+      },
+      "98": {
+        "fileName": "098_D7.wav",
+        "denotation": "D7",
+        "note": "D",
+        "type": "white"
+      },
+      "99": {
+        "fileName": "099_Eb7.wav",
+        "denotation": "Eb7",
+        "note": "Eb",
+        "type": "black"
+      },
+      "100": {
+        "fileName": "100_E7.wav",
+        "denotation": "E7",
+        "note": "E",
+        "type": "white"
+      },
+      "101": {
+        "fileName": "101_F7.wav",
+        "denotation": "F7",
+        "note": "F",
+        "type": "white"
+      },
+      "102": {
+        "fileName": "102_Gb7.wav",
+        "denotation": "Gb7",
+        "note": "Gb",
+        "type": "black"
+      },
+      "103": {
+        "fileName": "103_G7.wav",
+        "denotation": "G7",
+        "note": "G",
+        "type": "white"
+      },
+      "104": {
+        "fileName": "104_Ab7.wav",
+        "denotation": "Ab7",
+        "note": "Ab",
+        "type": "black"
+      },
+      "105": {
+        "fileName": "105_A7.wav",
+        "denotation": "A7",
+        "note": "A",
+        "type": "white"
+      },
+      "106": {
+        "fileName": "106_Bb7.wav",
+        "denotation": "Bb7",
+        "note": "Bb",
+        "type": "black"
+      },
+      "107": {
+        "fileName": "107_B7.wav",
+        "denotation": "B7",
+        "note": "B",
+        "type": "white"
+      },
+      "108": {
+        "fileName": "108_C8.wav",
+        "denotation": "C8",
+        "note": "C",
+        "type": "white"
+      }
+    }
+  }
+  

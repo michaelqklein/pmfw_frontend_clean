@@ -1,0 +1,68 @@
+{
+  "title": "Ascending Intervals - Ear Training",
+  "description": "Train your ear to recognize ascending melodic intervals. Ten concise lessons progressing from unison and seconds through compound intervals.",
+  "lessons": [
+    {
+      "title": "Unison and Minor Second",
+      "videoUrl": "/videos/ascending-intervals/01.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/01.pdf",
+      "notes": "Hear identical pitches (unison) then contrast against the tension of a minor second. Practice singing both."
+    },
+    {
+      "title": "Major Second",
+      "videoUrl": "/videos/ascending-intervals/02.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/02.pdf",
+      "notes": "Associate with common melodies. Drill in multiple keys with a drone."
+    },
+    {
+      "title": "Minor Third",
+      "videoUrl": "/videos/ascending-intervals/03.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/03.pdf",
+      "notes": "Contrast m3 vs M3. Sing arpeggios to internalize."
+    },
+    {
+      "title": "Major Third",
+      "videoUrl": "/videos/ascending-intervals/04.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/04.pdf",
+      "notes": "Bright quality. Anchor to tonic-triad sound."
+    },
+    {
+      "title": "Perfect Fourth",
+      "videoUrl": "/videos/ascending-intervals/05.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/05.pdf",
+      "notes": "Stable but open; relate to IV scale degree."
+    },
+    {
+      "title": "Tritone",
+      "videoUrl": "/videos/ascending-intervals/06.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/06.pdf",
+      "notes": "Max tension; practice resolution tendencies."
+    },
+    {
+      "title": "Perfect Fifth",
+      "videoUrl": "/videos/ascending-intervals/07.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/07.pdf",
+      "notes": "Hollow, open; fundamental in harmony."
+    },
+    {
+      "title": "Minor Sixth",
+      "videoUrl": "/videos/ascending-intervals/08.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/08.pdf",
+      "notes": "Melancholic color; compare with M6."
+    },
+    {
+      "title": "Major Sixth",
+      "videoUrl": "/videos/ascending-intervals/09.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/09.pdf",
+      "notes": "Wide, warm; connect to the relative major/minor relationship."
+    },
+    {
+      "title": "Sevenths Review",
+      "videoUrl": "/videos/ascending-intervals/10.mp4",
+      "pdfUrl": "/pdfs/ascending-intervals/10.pdf",
+      "notes": "Differentiate m7 vs M7; cadence expectations and voice-leading."
+    }
+  ]
+}
+
+
